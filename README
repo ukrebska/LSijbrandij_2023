@@ -1,0 +1,17 @@
+
+The scripts directory contains the scripts (jupyter notebooks, python3 and shell script making use of cdo ) and data which were used to generate the figures and tables in the main manuscript Sijbrandij et al. (2023 submitted to GRL).
+Script names indicate which Figures are produced. 
+In these scripts we use the internal experiment names which differ from the manuscript: 
+alakeGLAC refers to experiment REF13ka 
+alake13ka refers to experiment PL13ka_{warm} 
+plake     refers to experiment PL13ka 
+
+For Fig1. Fig1_generate_significance_masks.py has analysed 100yr monthly mean atmosphere model output to generate the masks which were used in Fig1 to highlight significant anomalies. 
+All necessary input data are stored in directory data
+
+System requirements:
+To use scripts/Tab1_extract_data.sh you will need cdo (Climate Data Operators version 1.9.3; http://mpimet.mpg.de/cdo)
+For python and jupyter notebooks please provide the following libaries:
+matplotlib, numpy, netcdf4, cartopy, xarray, scipy, os 
+
+Authors: Lianne Sijbrandij, Paul Gierz, Uta Krebs-Kanzow   
